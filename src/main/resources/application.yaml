@@ -1,0 +1,10 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: example-spring
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
